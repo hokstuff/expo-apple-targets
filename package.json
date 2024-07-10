@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "expo-yarn-workspaces check-workspace-dependencies",
+    "postinstall": "",
     "start": "lerna run build --parallel -- --watch",
     "prepare": "lerna run prepare --parallel"
   },
@@ -16,14 +16,13 @@
     "fs-extra": "^9.1.0"
   },
   "devDependencies": {
+    "@types/jest": "^26",
     "eslint": "^8.10.0",
-    "expo-yarn-workspaces": "^2.0.2",
+    "expo-module-scripts": "^2.0.0",
+    "jest": "^26.6.3",
     "lerna": "3.4.1",
     "prettier": "^2.2.1",
     "ts-node": "^10.0.0",
-    "typescript": "^4.2.4",
-    "expo-module-scripts": "^2.0.0",
-    "@types/jest": "^26",
-    "jest": "^26.6.3"
+    "typescript": "^4.2.4"
   }
 }
